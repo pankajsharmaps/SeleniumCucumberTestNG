@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.449" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/Pankaj/xtra/cucTestNGFrameWork/target/test-classes:/Users/Pankaj/xtra/cucTestNGFrameWork/target/classes:/Users/Pankaj/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/Pankaj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/Pankaj/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/Pankaj/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/Pankaj/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/Pankaj/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Pankaj/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Pankaj/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Pankaj/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Pankaj/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Pankaj/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Pankaj/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Pankaj/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Pankaj/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Pankaj/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-java/7.4.1/cucumber-java-7.4.1.jar:/Users/Pankaj/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-picocontainer/7.4.1/cucumber-picocontainer-7.4.1.jar:/Users/Pankaj/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-core/7.4.1/cucumber-core-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-gherkin/7.4.1/cucumber-gherkin-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.4.1/cucumber-gherkin-messages-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/datatable/7.4.1/datatable-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-plugin/7.4.1/cucumber-plugin-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/docstring/7.4.1/docstring-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-testng/7.4.1/cucumber-testng-7.4.1.jar:/Users/Pankaj/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/Pankaj/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/Pankaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/Pankaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/Pankaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/Pankaj/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/Pankaj/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/Pankaj/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/Pankaj/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/Pankaj/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/Pankaj/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/Pankaj/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/Pankaj/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/Pankaj/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/Pankaj/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/Pankaj/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/Pankaj/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/Pankaj/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/Pankaj/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/Pankaj/xtra/cucTestNGFrameWork/target/surefire/surefirebooter11190558756083420405.jar /Users/Pankaj/xtra/cucTestNGFrameWork/target/surefire 2024-04-26T11-39-00_001-jvmRun1 surefire6260961453420191423tmp surefire_0603145103761988836tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/Pankaj/xtra/cucTestNGFrameWork/target/test-classes:/Users/Pankaj/xtra/cucTestNGFrameWork/target/classes:/Users/Pankaj/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/Pankaj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/Pankaj/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/Pankaj/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/Pankaj/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/Pankaj/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Pankaj/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Pankaj/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Pankaj/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Pankaj/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Pankaj/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Pankaj/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Pankaj/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Pankaj/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Pankaj/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Pankaj/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-java/7.4.1/cucumber-java-7.4.1.jar:/Users/Pankaj/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-picocontainer/7.4.1/cucumber-picocontainer-7.4.1.jar:/Users/Pankaj/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-core/7.4.1/cucumber-core-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-gherkin/7.4.1/cucumber-gherkin-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.4.1/cucumber-gherkin-messages-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/datatable/7.4.1/datatable-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-plugin/7.4.1/cucumber-plugin-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/docstring/7.4.1/docstring-7.4.1.jar:/Users/Pankaj/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/Pankaj/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/Pankaj/.m2/repository/io/cucumber/cucumber-testng/7.4.1/cucumber-testng-7.4.1.jar:/Users/Pankaj/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/Pankaj/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/Pankaj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/Pankaj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/Pankaj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/Pankaj/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/Pankaj/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/Pankaj/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/Pankaj/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/Pankaj/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/Pankaj/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/Pankaj/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/Pankaj/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/Pankaj/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/Pankaj/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/Pankaj/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/Pankaj/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/Pankaj/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/Pankaj/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/Pankaj/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/Pankaj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/Pankaj/xtra/cucTestNGFrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/Pankaj/xtra/cucTestNGFrameWork/target/surefire/surefirebooter11190558756083420405.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="Pankaj"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/Pankaj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/tv/ys9fvp5575vfwfl7x3t3_z9m0000gn/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/Pankaj/xtra/cucTestNGFrameWork"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Pankaj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.TestRunner" time="21.697">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;sR_k-value&apos;]&quot;}&#10;  (Session info: chrome=124.0.6367.79)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Pankajs-MacBook-Air.local&apos;, ip: &apos;2401:4900:1cd1:fc8e:5c37:fd2a:d23b:f437%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.6.5&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /var/folders/tv/ys9fvp5575v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a1b3fd298ec9298232a9f665a06d9279&#10;*** Element info: {Using=xpath, value=//*[@class=&apos;sR_k-value&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='sR_k-value']"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pankajs-MacBook-Air.local', ip: '2401:4900:1cd1:fc8e:5c37:fd2a:d23b:f437%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /var/folders/tv/ys9fvp5575v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1b3fd298ec9298232a9f665a06d9279
+*** Element info: {Using=xpath, value=//*[@class='sR_k-value']}
+</failure>
+    <system-out><![CDATA[onStart method started
+New Test StartedrunScenario
+
+@Kayak @Functional
+Scenario Outline: Testing the flight search functionality of KAYAK travel website # src/test/resources/features/KayakFlightSearchTesting.feature:13
+  Given I am on Kayak Home Page                                                   # stepDefs.KayakFlightSearchTesting_StepDef.i_am_on_kayak_home_page()
+Mumbai
+  When I perform flight search to destination Mumbai                              # stepDefs.KayakFlightSearchTesting_StepDef.i_perform_flight_search_to_destination(java.lang.String)
+26 May, 2024
+  And providing from date 26 May, 2024 and to date 27 May, 2024                   # stepDefs.KayakFlightSearchTesting_StepDef.providing_from_date_and_to_date(java.lang.String,java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='sR_k-value']"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pankajs-MacBook-Air.local', ip: '2401:4900:1cd1:fc8e:5c37:fd2a:d23b:f437%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /var/folders/tv/ys9fvp5575v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1b3fd298ec9298232a9f665a06d9279
+*** Element info: {Using=xpath, value=//*[@class='sR_k-value']}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageObjects.KayakHomePage.fromDateSelection(KayakHomePage.java:27)
+	at stepDefs.KayakFlightSearchTesting_StepDef.providing_from_date_and_to_date(KayakFlightSearchTesting_StepDef.java:36)
+	at ✽.providing from date 26 May, 2024 and to date 27 May, 2024(file:///Users/Pankaj/xtra/cucTestNGFrameWork/src/test/resources/features/KayakFlightSearchTesting.feature:7)
+
+  And click on search button                                                      # stepDefs.KayakFlightSearchTesting_StepDef.click_on_search_button()
+  Then Flight result page should be displayed.                                    # stepDefs.KayakFlightSearchTesting_StepDef.flight_result_page_should_be_displayed()
+onTestFailure MethodrunScenario
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 124.0.6367.78 (a087f2dd364ddd58b9c016ef1bf563d2bc138711-refs/branch-heads/6367@{#954}) on port 36345
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 26, 2024 11:39:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunner" time="9.693">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;sR_k-value&apos;]&quot;}&#10;  (Session info: chrome=124.0.6367.79)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Pankajs-MacBook-Air.local&apos;, ip: &apos;2401:4900:1cd1:fc8e:5c37:fd2a:d23b:f437%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.6.5&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /var/folders/tv/ys9fvp5575v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0cc190a26a0139fee0e2d024049a2330&#10;*** Element info: {Using=xpath, value=//*[@class=&apos;sR_k-value&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='sR_k-value']"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pankajs-MacBook-Air.local', ip: '2401:4900:1cd1:fc8e:5c37:fd2a:d23b:f437%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /var/folders/tv/ys9fvp5575v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cc190a26a0139fee0e2d024049a2330
+*** Element info: {Using=xpath, value=//*[@class='sR_k-value']}
+</failure>
+    <system-out><![CDATA[New Test StartedrunScenario
+
+@Kayak @Functional
+Scenario Outline: Testing the flight search functionality of KAYAK travel website # src/test/resources/features/KayakFlightSearchTesting.feature:14
+  Given I am on Kayak Home Page                                                   # stepDefs.KayakFlightSearchTesting_StepDef.i_am_on_kayak_home_page()
+Pune
+  When I perform flight search to destination Pune                                # stepDefs.KayakFlightSearchTesting_StepDef.i_perform_flight_search_to_destination(java.lang.String)
+27 June, 2024
+  And providing from date 27 June, 2024 and to date 29 June, 2024                 # stepDefs.KayakFlightSearchTesting_StepDef.providing_from_date_and_to_date(java.lang.String,java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='sR_k-value']"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pankajs-MacBook-Air.local', ip: '2401:4900:1cd1:fc8e:5c37:fd2a:d23b:f437%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: /var/folders/tv/ys9fvp5575v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cc190a26a0139fee0e2d024049a2330
+*** Element info: {Using=xpath, value=//*[@class='sR_k-value']}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageObjects.KayakHomePage.fromDateSelection(KayakHomePage.java:27)
+	at stepDefs.KayakFlightSearchTesting_StepDef.providing_from_date_and_to_date(KayakFlightSearchTesting_StepDef.java:36)
+	at ✽.providing from date 27 June, 2024 and to date 29 June, 2024(file:///Users/Pankaj/xtra/cucTestNGFrameWork/src/test/resources/features/KayakFlightSearchTesting.feature:7)
+
+  And click on search button                                                      # stepDefs.KayakFlightSearchTesting_StepDef.click_on_search_button()
+  Then Flight result page should be displayed.                                    # stepDefs.KayakFlightSearchTesting_StepDef.flight_result_page_should_be_displayed()
+onTestFailure MethodrunScenario
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.78 (a087f2dd364ddd58b9c016ef1bf563d2bc138711-refs/branch-heads/6367@{#954}) on port 31563
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 26, 2024 11:39:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunner" time="7.371"/>
+</testsuite>

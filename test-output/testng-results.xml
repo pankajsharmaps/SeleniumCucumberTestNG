@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-26T13:38:05 IST" name="Travel site Testing" finished-at="2024-04-26T13:38:21 IST" duration-ms="15666">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1dde4cb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-26T13:38:05 IST" name="Travel website testing" finished-at="2024-04-26T13:38:21 IST" duration-ms="15666">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@1dde4cb2]" started-at="2024-04-26T13:38:05 IST" name="setUpClass" finished-at="2024-04-26T13:38:06 IST" duration-ms="1006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d43409a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:runner.TestRunner@1dde4cb2]" started-at="2024-04-26T13:38:06 IST" name="setUpCucumber" finished-at="2024-04-26T13:38:06 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1dde4cb2]" started-at="2024-04-26T13:38:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-26T13:38:20 IST" duration-ms="14415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Trivago search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Trivago"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1dde4cb2]" started-at="2024-04-26T13:38:20 IST" name="tearDownClass" finished-at="2024-04-26T13:38:21 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Travel website testing -->
+  </suite> <!-- Travel site Testing -->
+</testng-results>
